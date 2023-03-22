@@ -1,0 +1,45 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(253, 103, 188);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+    input{
+        display: none;
+    }
+
+    label{
+        font-size:3rem;
+        color:rgba(81, 13, 48, 0.8);
+        cursor:pointer;
+        visibility:hidden;
+        opacity: 0;
+
+    }
+
+    .logo{
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+
+    .navbar{
+
+        a{
+            font-size: 1.8rem;
+            margin-left: 2rem;
+            color: antiquewhite;
+
+            &:hover{
+                color: rgba(87, 14, 52, 0.8); 
+            }
+        }
+    }
+
+  }

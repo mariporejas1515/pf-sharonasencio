@@ -1,0 +1,31 @@
+.cont_comop{
+    .cont_cp{
+        margin-top: 50px;
+        text-align: center;
+        image-resolution: 100%;
+
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
+
+    h1{
+        margin-top: 8rem;
+        text-align: center;
+        font-size: 3rem;
+        color: rgba(83, 13, 49, 0.8);
+    }
+
+    p{
+        padding: 15px; 
+        font-size: 2rem;
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
